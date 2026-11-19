@@ -47,6 +47,16 @@ The example uses plain Markdown for the lookup and the authorized write. The Pyt
 
 For repeat use, put the [profile template](skills/atlas-notes/assets/profile.json) at `.atlas/profile.json` in your workspace. Map the folders that already hold knowledge and source material. The [workspace guide](skills/atlas-notes/references/workspace.md) covers adopting an existing layout and setting up a new one. The [handoff format](skills/atlas-notes/assets/packet.md) documents how to exchange scoped context and verified results with another workflow.
 
+## A decision’s life in Atlas
+
+Ask why the library’s pickup window is 48 hours. Atlas starts with the project handoff or a focused search, opens the relevant decision if it exists, then checks the original policy section. The answer includes the rule, its reason, and the supporting source. A read-only request leaves the workspace unchanged.
+
+When you ask Atlas to record that rule, it looks for the canonical note first. It can update that note or create one where the workspace’s existing conventions call for it, preserving links, sources, and disagreements. A later chat can retrieve the same decision from the same folder. If a proposed rule conflicts with a current policy, Atlas keeps their status visible and cites both.
+
+## Choose how much setup you need
+
+Start with the folder you already use. An explicit workspace path and ordinary Markdown search are enough. A project-local profile helps Atlas find the right handoff, note roots, and source folders when you return repeatedly. The optional catalog and graph are derived helpers. When either is missing or stale, the original notes and source files still support retrieval.
+
 ## Optional tools
 
 Start with Markdown. Add a helper when the workspace or question calls for it.
