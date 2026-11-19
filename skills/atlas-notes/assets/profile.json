@@ -1,0 +1,22 @@
+{
+  "schema": "atlas-profile/v1",
+  "workspace_id": "choose-stable-id",
+  "domain": "choose-domain",
+  "knowledge_roots": [
+    "Resources",
+    "Projects",
+    "Areas"
+  ],
+  "source_roots": [
+    "Sources"
+  ],
+  "graph_scope": [],
+  "exclude": [
+    ".git",
+    ".obsidian",
+    ".atlas",
+    "graphify-out",
+    "node_modules"
+  ],
+  "native_validator": null
+}

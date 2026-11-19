@@ -1,0 +1,6 @@
+interface:
+  display_name: "Atlas’ Notes"
+  short_description: "Keep source-backed project notes across sessions"
+  default_prompt: "Use $atlas-notes to find the latest project decision and cite the evidence."
+policy:
+  allow_implicit_invocation: true

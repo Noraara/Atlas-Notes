@@ -1,0 +1,11 @@
+.env
+.env.*
+.DS_Store
+Thumbs.db
+__pycache__/
+.venv/
+.obsidian/
+graphify-out/
+.atlas/catalog.json
+.atlas/graph-scope.json
+.atlas/.atlas-write-*
