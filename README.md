@@ -43,6 +43,8 @@ You should recover the 48-hour rule and its rationale, with links to the note an
 
 Tell Atlas where your notes are and what you want to do. It can find a past decision, save a new one, reconcile conflicting notes, or hand source-backed context to a delivery workflow.
 
+The example uses plain Markdown for the lookup and the authorized write. The Python helper adds catalog and consistency checks. Graphify can locate relationships before Atlas verifies the original source.
+
 For repeat use, put the [profile template](skills/atlas-notes/assets/profile.json) at `.atlas/profile.json` in your workspace. Map the folders that already hold knowledge and source material. The [workspace guide](skills/atlas-notes/references/workspace.md) covers adopting an existing layout and setting up a new one. The [handoff format](skills/atlas-notes/assets/packet.md) documents how to exchange scoped context and verified results with another workflow.
 
 ## Optional tools
