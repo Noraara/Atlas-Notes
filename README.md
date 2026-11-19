@@ -1,4 +1,4 @@
-# Atlas’ Notes
+# Atlas’ Notes Skill
 
 **Pick up where you left off without re-explaining the project.** Atlas’ Notes helps Codex and Claude Code save decisions, lessons, and evidence in Markdown. A fresh session can recover the current answer and show you where it came from.
 
